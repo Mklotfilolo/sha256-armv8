@@ -92,7 +92,7 @@ int main(int argc, char **argv) {
 		// add (almost) one block of zero bytes
 		i = 0;
 	}
-	for (; i < 56; i++) {
+	for (int i =0; i < 56; i++) {
 		buffer[i] = 0x00;
 	}
 
